@@ -7,6 +7,14 @@
    - git init
    - heroku git:remote -a pruebashs
    - git add .
-   - git commit -am "make it better | Creado por HS para DATOS de PRUEBA"
+   - git commit -am "make it better"
+   - git push heroku main
++ Al terminar el PUSH saca la dirección de acceso (END-POINT) para consumir los datos con base en la APP creada en Heroku. Por ejemplo: "pruebashs".
+   https://"PONER AQUÍ LA APP CREADA EN HEROKU (SIN LAS COMILLAS)".herokuapp.com/
+   para este repositorio es: https://pruebashs.herokuapp.com/ 
+   Para acceder a una tabla en particular, se pone al final "/" y el nombre de la tabla, como por ejemplo: "tbProducts". Entonces quedaría así:
+   https://pruebashs.herokuapp.com/tbProducts
+
+
 
 
